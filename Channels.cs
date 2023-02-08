@@ -3,6 +3,7 @@ public class Channel
 {
     public Channel(){
         configuration = new Configuration();
+        chatter_info = new ChatterInfo();
     }
 
     public string broadcaster_id { get; set; } = string.Empty;
@@ -17,7 +18,7 @@ public class Channel
     public int viewers { get; set; }
     public string profile { get; set; } = string.Empty;
     public string type { get; set; } = string.Empty;
-    public ChatterInfo chatter_info { get; set; } = new();
+    public ChatterInfo chatter_info { get; set; }
 }
 
 public class Charity
