@@ -4,7 +4,7 @@
 
 Before you begin, make sure you have the following software installed on your machine:
 
-- .NET 7.0 SDK
+- .NET 8.0 SDK
 - Git
 
 ## Clone the Repository
