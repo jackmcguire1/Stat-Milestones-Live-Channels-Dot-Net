@@ -13,3 +13,4 @@ jobs:
           dotnet-version: 8.x
       - run: dotnet --version
       - run: dotnet build
+      - run: dotnet run

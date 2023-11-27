@@ -48,7 +48,7 @@ namespace WebApiClient
         public async Task<LiveChannelsResponse> GetLiveChannelsAsync()
         {
             await using Stream stream =
-                await client.GetStreamAsync("https://0u3uqckeqf.execute-api.us-east-1.amazonaws.com/Prod/live-channels");
+                await client.GetStreamAsync("https://api.stat-milestones.dev/live-channels");
             var channelsResponse =
                 await JsonSerializer.DeserializeAsync<LiveChannelsResponse>(stream);
 
